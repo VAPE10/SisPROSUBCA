@@ -1,0 +1,44 @@
+<?php
+function Fecha_Español(){
+    switch(date("F")){
+        case("January");
+        $mes="Enero";
+        Break;
+        case("February");
+        $mes="Febrero";
+        Break;
+        case("March");
+        $mes="Marzo";
+        Break;
+        case("April");
+        $mes="Abril";
+        Break;        
+        case("May");
+        $mes="Mayo";
+        Break;
+        case("June");
+        $mes="Junio";
+        Break;
+        case("July");
+        $mes="Julio";
+        Break;
+        case("August");
+        $mes="Agosto";
+        Break;
+        case("September");
+        $mes="Septiembre";
+        Break;
+        case("October");
+        $mes="Octubre";
+        Break;
+        case("November");
+        $mes="Noviembre";
+        Break;
+        case("December");
+        $mes="Diciembre";
+        Break;
+    }
+    echo date("d")." / ".$mes." / ".date("Y")."<br>";
+}
+Fecha_Español();
+?>
